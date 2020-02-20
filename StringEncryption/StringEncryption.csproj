@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IInputCheck.cs" />
     <Compile Include="Contracts\IStringEncryption.cs" />
+    <Compile Include="inputCheck.cs" />
     <Compile Include="StringEncryption.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
